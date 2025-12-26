@@ -1,52 +1,3 @@
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-AddNumbers.java [unix] (05:29 01/01/1970)                                            0,0-1 All
--- VISUAL BLOCK --                                                                 1x1
 import java.util.Scanner;
 
 public class AddNumbers {
@@ -62,9 +13,11 @@ public class AddNumbers {
 
         // Calculate sum
         double sum = num1 + num2;
+        double multiplication = num1 * num2;
 
         // Display result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The multiplication of " + num1 + " and " + num2 + " is: " + multiplication);
 
         scanner.close();
     }
